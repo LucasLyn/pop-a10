@@ -1,19 +1,19 @@
 # PoP - Assignment 10
 PoP - 10i
 
-Don't be stupid...
+This assignment was about object oriented programming. In this case, we were tasked with creating a drone simulator.
 
 # PoP - 10i
 
 
 ## Kode
 
-Biblioteket simulate compiles med fsharpc:
+The library is compiled with fsharpc;
 
 	$ fsharpc -a simulate.fs
 
 
-testSimulate compiles med fsharpc og køres med mono:
+The code is compiled with the library with fsharpc and run with mono;
 
 	$ fsharpc -r simulate.dll testSimulate.fsx
 	$ mono testSimulate.exe
